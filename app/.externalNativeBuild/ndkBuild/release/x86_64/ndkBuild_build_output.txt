@@ -1,0 +1,10 @@
+rm -f /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64/*
+rm -f /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64/gdbserver
+rm -f /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64/gdb.setup
+mkdir -p /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj/local/x86_64
+echo [x86_64] "Prebuilt       ": "libopencv_java3.so <= /Users/TheTardis/Documents/UPRM/UAV/OpenCV-android-sdk/sdk/native/jni/../libs/x86_64/"
+cp -f /Users/TheTardis/Documents/UPRM/UAV/OpenCV-android-sdk/sdk/native/jni/../libs/x86_64/libopencv_java3.so /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libopencv_java3.so
+mkdir -p /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64
+echo [x86_64] "Install        ": "libopencv_java3.so => /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64/libopencv_java3.so"
+install -p /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj/local/x86_64/libopencv_java3.so /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64/libopencv_java3.so
+/Users/TheTardis/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64/bin/x86_64-linux-android-strip --strip-unneeded  /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib/x86_64/libopencv_java3.so

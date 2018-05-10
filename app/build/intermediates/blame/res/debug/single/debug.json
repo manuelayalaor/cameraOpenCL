@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/res/merged/debug/layout_activity.xml.flat",
+        "source": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/res/layout/activity.xml"
+    },
+    {
+        "merged": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
+        "source": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/res/merged/debug/drawable_icon.png.flat",
+        "source": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/res/drawable/icon.png"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "58",
+                        "endColumns": "67",
+                        "endOffsets": "121"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "345",
+                        "endColumns": "67",
+                        "endOffsets": "408"
+                    }
+                }
+            ]
+        }
+    ]
+}

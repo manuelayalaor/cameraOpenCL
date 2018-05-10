@@ -1,0 +1,11 @@
+{
+  "buildFiles": [
+    "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Android.mk",
+    "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [],
+  "libraries": {},
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
