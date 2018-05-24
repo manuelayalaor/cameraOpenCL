@@ -11,6 +11,7 @@ import java.nio.FloatBuffer;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
+import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.CameraGLSurfaceView;
 import org.opencv.android.CameraGLSurfaceView.CameraTextureListener;
 

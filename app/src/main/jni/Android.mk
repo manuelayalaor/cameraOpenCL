@@ -13,6 +13,10 @@ else
   include /Users/TheTardis/Documents/UPRM/UAV/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
 endif
 
+LOCAL_SRC_FILES := org_opencv_samples_tutorial4_NativePart.cpp
+LOCAL_LDLIBS    += -llog -lGLESv2 -lEGL
+LOCAL_MODULE := MyLibs
+
 #ifndef OPENCL_SDK
 #  $(error Specify OPENCL_SDK to Android OpenCL SDK location)
 #endif
@@ -24,4 +28,4 @@ endif
 #LOCAL_MODULE    := JNIpart
 #LOCAL_SRC_FILES := jni.c CLprocessor.cpp
 #LOCAL_LDLIBS    += -llog -lGLESv2 -lEGL
-#include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)

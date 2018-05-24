@@ -3,9 +3,31 @@
     "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Android.mk",
     "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Application.mk"
   ],
-  "cleanCommands": [],
-  "libraries": {},
-  "toolchains": {},
+  "cleanCommands": [
+    "/Users/TheTardis/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "MyLibs-release-armeabi-v7a": {
+      "buildCommand": "/Users/TheTardis/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-14 NDK_OUT\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/lib /Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libMyLibs.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "MyLibs",
+      "files": [
+        {
+          "src": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni/org_opencv_samples_tutorial4_NativePart.cpp",
+          "flags": "\"-gcc-toolchain\" \"/Users/TheTardis/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-target\" \"armv7-none-linux-androideabi14\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-fno-exceptions\" \"-fno-rtti\" \"-mthumb\" \"-Os\" \"-DNDEBUG\" \"-I/Users/TheTardis/Documents/UPRM/UAV/OpenCV-android-sdk/sdk/native/jni/include/opencv\" \"-I/Users/TheTardis/Documents/UPRM/UAV/OpenCV-android-sdk/sdk/native/jni/include\" \"-I/Users/TheTardis/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include\" \"-I/Users/TheTardis/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include\" \"-I/Users/TheTardis/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward\" \"-I/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/src/main/jni\" \"-DANDROID\" \"-fPIC\" \"-DANDROID\" \"-fsigned-char\" \"-D__ANDROID_API__\u003d14\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-fexceptions\" \"-frtti\" \"--sysroot\" \"/Users/TheTardis/Library/Android/sdk/ndk-bundle/sysroot\" \"-isystem\" \"/Users/TheTardis/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi\""
+        }
+      ],
+      "output": "/Users/TheTardis/Documents/UPRM/UAV/tutorial-4-opencl_748/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libMyLibs.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/Users/TheTardis/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
   "cFileExtensions": [],
-  "cppFileExtensions": []
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }
